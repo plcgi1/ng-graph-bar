@@ -1,0 +1,16 @@
+<div class="container bar-graph-container" style="width:100%;">
+    <div class="bar-graph-back" >
+        <span ng-repeat="row in data"><span class="bar-graph-line {{row.colorClass}}" style="width: {{row.value}}%;"></span></span>
+    </div>
+    <div class="col-md-12 bar-graph-legend">
+        <table class="bar-graph-legend">
+            <tr>
+                <td ng-repeat="row in data" class="bar-graph-cell">
+                    <span class="bar-graph-line {{row.colorClass}} bar-graph-legend-color"></span>
+                    <span class="bar-graph-label">{{row.name}}</span>
+                    <span class="bar-graph-percent">({{row.value | number:2}}%)</span>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
