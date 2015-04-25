@@ -1,0 +1,73 @@
+.bar-graph-container {
+  width: 100%;
+  min-height: 100px;
+  padding: 2%;
+  margin-left: auto;    /*   These are the    */
+  margin-right: auto; /* important lines! */
+}
+.bar-graph-back {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+.bar-graph-legend {
+    margin: auto;
+}
+.bar-graph-legend .bar-graph-line {
+    min-height: 15px;
+    min-width: 15px;
+}
+.bar-graph-label {
+  padding-left: 5px;
+  padding-right: 3px;
+  font-size: 12px;
+  position: relative;
+  top: -15px;
+  font-weight: bold;
+  font-family: Dosis, sans-serif;
+}
+.bar-graph-percent {
+  padding-right: 2px;
+  font-size: 12px;
+  position: relative;
+  top: -15px;
+}
+.bar-graph-cell {
+  min-width: 100px;
+}
+.bar-graph-legend-color {
+  min-width:5px;
+  min-height:5px;
+}
+.bar-graph-line {
+  float: left;
+  width: 10px;
+  height: 90%;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,0.15);
+  -webkit-transition: width .6s ease;
+  transition: width .6s ease
+}
+
+.bar-graph-1 {
+  background-color: #7cb5ec;
+}
+.bar-graph-2 {
+  background-color: #f7a35c;
+}
+.bar-graph-3 {
+  background-color: #f45b5b;
+}
+.bar-graph-4 {
+  background-color: #46fa4c;
+}
+.bar-graph-5 {
+  background-color: #aaeeee;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ng-graph",
+  "version": "1.2.28",
+  "description": "AngularJS directives for simple bar graph",
+  "main": "ng-graph-bar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ng-graph.git"
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "graph",
+    "bar"
+  ],
+  "author": "UP Core Team <plcgi1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ng-graph/issues"
+  },
+  "homepage": "http://angularjs.org"
+}
