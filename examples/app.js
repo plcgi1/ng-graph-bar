@@ -4,7 +4,7 @@
     var GraphCtrl;
 
     angular.module(
-        'app',
+        'demo',
         [
             'ngRoute',
             'ngGraph'
