@@ -37,7 +37,7 @@
     };
 
     angular
-        .module('customer')
+        .module('demo')
         .controller('GraphCtrl', GraphCtrl)
         .config([]);
 })();
