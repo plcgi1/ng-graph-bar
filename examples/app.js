@@ -6,7 +6,6 @@
     angular.module(
         'demo',
         [
-            'ngRoute',
             'ngGraph'
         ]
     );
